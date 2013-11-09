@@ -7,6 +7,7 @@
 //
 
 #import "RMViewController.h"
+#import "RMCreateAccountViewController.h"
 
 @interface RMViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.usernameLabel.text = [[NSUserDefaults standardUserDefaults] objectForKey:USER_NAME];
+    self.passwordLabel.text = [[NSUserDefaults standardUserDefaults] objectForKey:USER_PASSWORD];
 }
 
 - (void)didReceiveMemoryWarning

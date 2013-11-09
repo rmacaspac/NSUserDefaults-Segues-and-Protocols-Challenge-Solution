@@ -21,6 +21,8 @@
 		26193024182A12D00005B6D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26193006182A12CF0005B6D1 /* UIKit.framework */; };
 		2619302C182A12D00005B6D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2619302A182A12D00005B6D1 /* InfoPlist.strings */; };
 		2619302E182A12D00005B6D1 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619302D182A12D00005B6D1 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */; };
+		264ED2F1182B5C9600737141 /* RMSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264ED2F0182B5C9600737141 /* RMSignInViewController.m */; };
+		264ED2F4182B5CB200737141 /* RMCreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264ED2F3182B5CB200737141 /* RMCreateAccountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		26193029182A12D00005B6D1 /* NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		2619302B182A12D00005B6D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2619302D182A12D00005B6D1 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		264ED2EF182B5C9600737141 /* RMSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMSignInViewController.h; sourceTree = "<group>"; };
+		264ED2F0182B5C9600737141 /* RMSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMSignInViewController.m; sourceTree = "<group>"; };
+		264ED2F2182B5CB200737141 /* RMCreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCreateAccountViewController.h; sourceTree = "<group>"; };
+		264ED2F3182B5CB200737141 /* RMCreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCreateAccountViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				26193011182A12CF0005B6D1 /* RMAppDelegate.h */,
 				26193012182A12CF0005B6D1 /* RMAppDelegate.m */,
 				26193014182A12D00005B6D1 /* Main.storyboard */,
+				264ED2EF182B5C9600737141 /* RMSignInViewController.h */,
+				264ED2F0182B5C9600737141 /* RMSignInViewController.m */,
+				264ED2F2182B5CB200737141 /* RMCreateAccountViewController.h */,
+				264ED2F3182B5CB200737141 /* RMCreateAccountViewController.m */,
 				26193017182A12D00005B6D1 /* RMViewController.h */,
 				26193018182A12D00005B6D1 /* RMViewController.m */,
 				2619301A182A12D00005B6D1 /* Images.xcassets */,
@@ -251,6 +261,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2619300F182A12CF0005B6D1 /* main.m in Sources */,
+				264ED2F4182B5CB200737141 /* RMCreateAccountViewController.m in Sources */,
+				264ED2F1182B5C9600737141 /* RMSignInViewController.m in Sources */,
 				26193013182A12CF0005B6D1 /* RMAppDelegate.m in Sources */,
 				26193019182A12D00005B6D1 /* RMViewController.m in Sources */,
 			);
@@ -461,6 +473,7 @@
 				26193033182A12D00005B6D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26193034182A12D00005B6D1 /* Build configuration list for PBXNativeTarget "NSUserDefaults, Segues and Protocols Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +482,7 @@
 				26193036182A12D00005B6D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
